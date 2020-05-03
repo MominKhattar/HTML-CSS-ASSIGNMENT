@@ -1,7 +1,6 @@
 *{
     padding: 0px;
     margin: 0px;
-    text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -13,7 +12,7 @@
 
 div span a>img{
     margin: 5px;
-    width: 18px;
+    max-width: 18px;
 }
 
 #headcolor p{
@@ -68,6 +67,7 @@ ul li{
 #form{
     float: left;
     margin-left: 5%;
+    padding-bottom: 10%;
 }
 
 #form form p{
@@ -139,7 +139,51 @@ ul li{
     margin: 5% 0% 2% 0;
 }
 
+#footer{
+    clear: both;
+    background-color: #24272e;
+    display: flex;
 
-#right-contents img{
+}
 
+#footleft{
+    font-size: 12px;
+    color: #8d9eb0;
+    margin-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#footleft p{
+    margin: 1%;
+}
+#footleft p>img{
+    margin-right: 5px;
+}
+
+#footcenter{
+    color:#8d9eb0;
+    margin-top: 3%;
+    margin-right: 10%;
+}
+
+#footright{
+    margin-left: 10%;
+    margin-right: 30%;
+    padding-top: 3%;
+    color: grey;
+}
+
+.footermain{
+    background-color: #306dd8;
+    color: white;
+}
+.footermain p{
+    margin-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10;
+    font-size: 12px;
+}
+.coverimg{
+    max-width: 100%;
 }
