@@ -45,7 +45,7 @@
         </div>
         <!------Cover image-->
         <div class="coverimg">
-        <img src="Assets/img/cover img.jpeg">
+        <img src="Assets/img/bannerjpeg.jpeg" width="100%" >
         </div>
 
         <div id="lines" style="text-align: center;">
@@ -61,7 +61,7 @@
             <br>
             <form action="" method="POST">
                 <p>Donation Type</p>
-                <select name="Bank" id="" class="form-control1" >
+                <select name="Bank" id="" class="form-control1" required >
                     <option value="">Select Bank</option>
                     <option value="Askari">Askari Bank</option>
                     <option value="UBL">UBL</option>
@@ -69,7 +69,7 @@
                 </select>
 
                 <p>Donation In</p>
-                <select name="Donation-in" id="" class="form-control1" >
+                <select name="Donation-in" id="" class="form-control1"  required>
                     <option  value="select-option">Select Options</option>
                     <option value="Sehri & Iftari">Sehri & Iftari(5$)</option>
                     <option value="Rashan Pakage">Rashan Pakage(35$)</option>
@@ -79,18 +79,18 @@
                 </select>
 
                 <p>Quantity</p>
-                <input type="number" size="50" placeholder="Enter Number" class="form-control" maxlength="5">
+                <input type="number" size="50" placeholder="Enter Number" class="form-control" maxlength="5" required>
 
                 <p>Account Payable</p>
-                <input type="text" size="50" class="form-control" placeholder="Enter Payable">
+                <input type="text" size="50" class="form-control" placeholder="Enter Payable" required>
                 <p>Name</p>
-                <input type="text" size="50" class="form-control" placeholder="Enter Full Name">
+                <input type="text" size="50" class="form-control" placeholder="Enter Full Name" required>
                 <p>Email</p>
-                <input type="email" size="50" class="form-control" placeholder="Email">
+                <input type="email" size="50" class="form-control" placeholder="Email" required>
                 <p>Mobile</p>
-                <input type="text" size="50" maxlength="11" class="form-control" placeholder="Enter Mobile Number">
+                <input type="text" size="50" maxlength="11" class="form-control" placeholder="Enter Mobile Number" required>
                 <p>Remarks</p>
-                <textarea style="text-align: left;" name="remarks" class="form-control2" placeholder="Enter Remarks"  cols="53" rows="5"></textarea>
+                <textarea style="text-align: left;" name="remarks" class="form-control2" placeholder="Enter Remarks"  cols="53" rows="5" required></textarea>
                 <button type="submit" id="submit-btn">Send</button>
             </form>
             </div>

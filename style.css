@@ -184,6 +184,32 @@ ul li{
     padding-bottom: 10;
     font-size: 12px;
 }
-.coverimg{
-    max-width: 100%;
+.coverimg img{
+    max-width: 200%;
 }
+
+/*For laptops*/
+@media all and (max-width:1920)
+
+/* For tablets*/
+@media all and (max-width:2732){
+    #form{
+        margin-left: 250px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #form{
+        display: flex;
+        max-width: 120%;
+    }
+    #form h5{
+        position: relative;
+        left: 330px;
+        top: -25px;
+    }
+    #right-contents{
+        position: relative;
+        right: 180px;
+        top: -100px;
+    }
